@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 from skimage.transform import resize
 
 #定义路径
-image_path = "data/001000_img.nii"  # 替换为实际路径
-mask_path = "data/001000_mask.nii"  # 替换为实际路径
+image_path = "dataset/data/001000_img.nii"  # 替换为实际路径
+mask_path = "dataset/data/001000_mask.nii"  # 替换为实际路径
 
 # 使用 nibabel 加载 NIfTI 文件
 image_nii = nib.load(image_path)
